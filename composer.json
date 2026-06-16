@@ -1,0 +1,24 @@
+{
+    "name": "componenta/error-renderer-collision",
+    "description": "Collision renderer integration for Componenta error handling",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^8.4",
+        "componenta/error-handler": "^1.0",
+        "filp/whoops": "^2.18",
+        "nunomaduro/collision": "^8.8",
+        "symfony/console": "^7.4 || ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Componenta\\Error\\Renderer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Componenta\\Error\\Renderer\\Collision\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable"
+}
